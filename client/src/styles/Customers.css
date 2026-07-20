@@ -1,0 +1,128 @@
+.customer-container {
+  padding: 30px;
+}
+
+.customer-title {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.customer-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.customer-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.customer-form button {
+  grid-column: span 2;
+  padding: 12px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.customer-form button:hover {
+  background: #005fa3;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.customer-table th {
+  background: #0077cc;
+  color: white;
+  padding: 12px;
+}
+
+.customer-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.customer-table tr:hover {
+  background: #f5f5f5;
+}
+
+.edit-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.edit-btn {
+  background: #2196f3;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #1976d2;
+}
+
+.delete-btn {
+  background: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}
+
+.customer-form input,
+.customer-form select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 8px;
+  font-size: 15px;
+}
